@@ -25,7 +25,10 @@
     "electron"
   ],
   "dependencies": {
-    "electron-debug": "^1.0.0"
+    "electron-debug": "^1.0.0",
+    "react": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0"
   },
   "devDependencies": {
     "devtron": "^1.1.0",
