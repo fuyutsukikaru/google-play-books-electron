@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+const webview = React.createElement(
+    'webview',
+    {
+        src: 'https://play.google.com/books',
+        className: 'webview-element'
+    }
+)
+
 ReactDOM.render(
-  <h1>Electron boilerplate</h1>,
-  document.getElementById('boilerplate')
+    webview,
+    document.getElementById('container')
 );
